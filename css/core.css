@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    min-width: 320px;
+    
+}
+.wrap{
+    max-width: 100%;
+    padding: 0, 0;
+    margin: 0 auto;
+}
+body{
+    /*background-image: url('../img/bg1.jpg');*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    
+    
+}
+.header_logo{
+    /* Bali Travel */
+    
+
+    position: absolute;
+    width: 321px;
+    height: 100px;
+    left: 205px;
+    top: 49px;
+
+    font-family: Fondamento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 100px;
+    /* identical to box height */
+
+
+color: #ffffff;
+}
+h1{
+    /* Авторские путешествия на Бали */
+
+
+    position: absolute;
+    width: 688px;
+    height: 270px;
+    left: 120px;
+    top: 830px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 94%;
+    /* or 90px */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+.header_button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 94%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+.more{
+    /* подробнее */
+
+
+    position: absolute;
+    width: 141px;
+    height: 23px;
+    left: 744px;
+    top: 87px;
+}
+.catalog{
+    /* каталог */
+
+
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 978px;
+    top: 88px;
+}
+.contacts{
+    /* контакты */
+
+
+    position: absolute;
+    width: 115px;
+    height: 23px;
+    left: 1166px;
+    top: 87px;
+}
+.comments{
+    /* отзывы */
+
+
+    position: absolute;
+    width: 91px;
+    height: 23px;
+    left: 1374px;
+    top: 87px;
+}
+.entry{
+    /* вход в кабинет */
+
+
+    position: absolute;
+    width: 1400px;
+    height: 17px;
+    left: 1649px;
+    top: 91px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 94%;
+/* identical to box height, or 17px */
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+.big_button{
+    /* оформить путевку */
+    
+
+    position: absolute;
+    width: 4580px;
+    height: 45px;
+    left: 1298px;
+    top: 1011px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 94%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+
+    color: #ff0000;
+}
+a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+A:visited { 
+    text-decoration: none;
+    color: #ffffff;
+} 
+A:active { text-decoration: none; }
+A:hover {
+    text-decoration: wavy; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: rgb(218, 218, 218); /* Цвет ссылки */
+}
