@@ -24,3 +24,9 @@
     position: relative;
     z-index: 2;
 }
+
+.will_be{
+    height: 1796px;
+    background: url('../../img/bg2.png') center no-repeat;
+    background-size: cover;
+}
